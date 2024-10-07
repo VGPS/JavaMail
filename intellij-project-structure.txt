@@ -1,0 +1,39 @@
+email-service/
+├── .idea/
+│   ├── .gitignore
+│   ├── compiler.xml
+│   ├── encodings.xml
+│   ├── jarRepositories.xml
+│   ├── misc.xml
+│   └── workspace.xml
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/
+│   │   │       └── yourcompany/
+│   │   │           ├── config/
+│   │   │           │   └── EmailConfig.java
+│   │   │           ├── controller/
+│   │   │           │   └── EmailController.java
+│   │   │           ├── model/
+│   │   │           │   ├── Email.java
+│   │   │           │   ├── EmailType.java
+│   │   │           │   ├── Sender.java
+│   │   │           │   └── Receiver.java
+│   │   │           ├── repository/
+│   │   │           │   ├── SenderRepository.java
+│   │   │           │   └── ReceiverRepository.java
+│   │   │           ├── service/
+│   │   │           │   ├── EmailService.java
+│   │   │           │   └── EmailServiceImpl.java
+│   │   │           └── EmailServiceApplication.java
+│   │   └── resources/
+│   │       └── application.properties
+│   └── test/
+│       └── java/
+│           └── com/
+│               └── yourcompany/
+│                   └── EmailServiceApplicationTests.java
+├── .gitignore
+├── email-service.iml
+└── pom.xml

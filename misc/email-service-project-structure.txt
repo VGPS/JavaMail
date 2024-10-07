@@ -1,0 +1,30 @@
+project-root/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/
+│   │   │       └── yourcompany/
+│   │   │           ├── config/
+│   │   │           │   └── EmailConfig.java
+│   │   │           ├── controller/
+│   │   │           │   └── EmailController.java
+│   │   │           ├── model/
+│   │   │           │   ├── Email.java
+│   │   │           │   ├── EmailType.java
+│   │   │           │   ├── Sender.java
+│   │   │           │   └── Receiver.java
+│   │   │           ├── repository/
+│   │   │           │   ├── SenderRepository.java
+│   │   │           │   └── ReceiverRepository.java
+│   │   │           ├── service/
+│   │   │           │   ├── EmailService.java
+│   │   │           │   └── EmailServiceImpl.java
+│   │   │           └── EmailApplication.java
+│   │   └── resources/
+│   │       └── application.properties
+│   └── test/
+│       └── java/
+│           └── com/
+│               └── yourcompany/
+│                   └── EmailServiceTests.java
+└── pom.xml
