@@ -1,3 +1,9 @@
+
+
+
+
+
+
 Let me break down the comparison between Dynatrace and Splunk:
 
 Core Functional Spaces:
